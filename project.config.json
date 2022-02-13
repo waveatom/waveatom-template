@@ -1,0 +1,10 @@
+{
+  "rcms": {
+    "url": "https://github.com/waveatom/waveatom-template",
+    "path": "rcms"
+  },
+  "waveatom-frontend": {
+    "url": "https://github.com/waveatom/waveatom-template",
+    "path": "rcms"
+  }
+}

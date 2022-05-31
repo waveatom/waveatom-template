@@ -1,0 +1,34 @@
+{
+  "name": "waveatom",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lerna bootstrap && lerna run --parallel start",
+    "init": "npm install && lerna bootstrap",
+    "server": "lerna bootstrap && lerna run --parallel dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waveatom/wavetom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waveatom/wavetom/issues"
+  },
+  "homepage": "https://github.com/waveatom/wavetom#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.1.1",
+    "@rollup/plugin-replace": "^3.0.0",
+    "execa": "5.0.0",
+    "lerna": "^4.0.0",
+    "rollup": "^2.61.1",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "ts-loader": "9.2.6",
+    "typescript": "^4.5.4"
+  }
+}

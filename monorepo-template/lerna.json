@@ -1,0 +1,13 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "granularPathspec": false,
+  "npmClient": "npm",
+  "exclude": [
+  ],
+  "publish": {
+    "verifyAccess": "false"
+  },
+  "version": "0.0.1"
+}
